@@ -5,6 +5,10 @@
 
 #include "../src/hello.hpp"
 
-TEST_CASE( "it returns Hello World" ) {
-    REQUIRE( hello() == "Hello World!" );
+TEST_CASE("Adding and subtracting")
+{
+    TriangleNumberCalc t;
+
+    REQUIRE(t.add(5, 10) == 70);
+    REQUIRE(t.subtract(5, 10) == -40);
 }

@@ -1,3 +1,11 @@
+#pragma once
+
 #include <string>
 
-std::string hello();
+class TriangleNumberCalc
+{
+public:
+    int value(int n);
+    int add(int n, int m);
+    int subtract(int n, int m);
+};
